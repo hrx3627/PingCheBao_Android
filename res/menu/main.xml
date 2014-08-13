@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.wechatsample.MainActivity" >
+
+    <item
+        android:id="@+id/action_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/ic_launcher"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/action_search"/>
+    <item
+        android:id="@+id/action_plus"
+        android:actionProviderClass="com.example.wechatsample.PlusActionProvider"
+        android:icon="@drawable/ic_launcher"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_plus"/>
+    <item
+        android:id="@+id/action_album"
+        android:icon="@drawable/ic_launcher"
+        android:title="@string/action_album"/>
+    <item
+        android:id="@+id/action_collection"
+        android:icon="@drawable/ic_launcher"
+        android:title="@string/action_collection"/>
+    <item
+        android:id="@+id/action_card"
+        android:icon="@drawable/ic_launcher"
+        android:title="@string/action_card"/>
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_launcher"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/action_feed"
+        android:icon="@drawable/ic_launcher"
+        android:title="@string/action_feed"/>
+
+</menu>
